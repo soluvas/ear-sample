@@ -46,15 +46,8 @@
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.2</version>
-<!-- 				<extensions>false</extensions> -->
 				<configuration>
-					<!-- Skinny war -->
-<!-- 					<packagingExcludes>WEB-INF/lib/*</packagingExcludes> -->
 					<archive>
-<!-- 						<manifest> -->
-<!-- 							<addClasspath>true</addClasspath> -->
-<!-- 							<classpathPrefix>lib/</classpathPrefix> -->
-<!-- 						</manifest> -->
 						<manifestEntries>
 							<Dependencies>org.slf4j, org.apache.commons.logging, org.joda.time</Dependencies>
 						</manifestEntries>
