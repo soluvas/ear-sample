@@ -27,5 +27,11 @@
         <dependent-module archiveName="solder-logging-3.1.0.Final.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/jboss/solder/solder-logging/3.1.0.Final/solder-logging-3.1.0.Final.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="seam-international-3.1.0.Final.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/international/seam-international/3.1.0.Final/seam-international-3.1.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="seam-international-api-3.1.0.Final.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/international/seam-international-api/3.1.0.Final/seam-international-api-3.1.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
