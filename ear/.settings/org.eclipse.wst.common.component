@@ -12,5 +12,8 @@
         <dependent-module archiveName="ear-sample-core-1.0.0-SNAPSHOT.jar" deploy-path="/lib/" handle="module:/resource/ear-sample-core/ear-sample-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="jboss-jaxb-api_2.2_spec-1.0.2.Final.jar" deploy-path="/lib/" handle="module:/classpath/var/M2_REPO/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.2_spec/1.0.2.Final/jboss-jaxb-api_2.2_spec-1.0.2.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

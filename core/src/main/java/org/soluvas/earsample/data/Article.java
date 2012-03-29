@@ -1,7 +1,5 @@
 package org.soluvas.earsample.data;
 
-import java.util.Date;
-
 import org.joda.time.DateTime;
 
 public class Article {
@@ -10,10 +8,10 @@ public class Article {
 	private String summary;
 	private String content;
 	private String creator;
-	private Date created;
+	private DateTime created;
 	
 	public Article() {
-		this.created = new Date();
+		this.created = new DateTime();
 	}
 	
 	public Article(String title, String summary, String content,
@@ -23,11 +21,11 @@ public class Article {
 		this.summary = summary;
 		this.content = content;
 		this.creator = creator;
-		this.created = new Date();
+		this.created = new DateTime();
 	}
 	
 	public Article(String title, String summary, String content,
-			String creator, Date created) {
+			String creator, DateTime created) {
 		super();
 		this.title = title;
 		this.summary = summary;
@@ -61,9 +59,9 @@ public class Article {
 		this.creator = creator;
 	}
 	public DateTime getCreated() {
-		return new DateTime(created);
+		return created;
 	}
-	public void setCreated(Date created) {
+	public void setCreated(DateTime created) {
 		this.created = created;
 	}
 	

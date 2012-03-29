@@ -16,9 +16,18 @@
 			<groupId>org.soluvas.earsample</groupId>
 			<artifactId>ear-sample-core</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
-<!-- 			<scope>provided</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.2</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.jboss.spec.javax.ws.rs</groupId>
 			<artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
@@ -39,6 +48,10 @@
 			<artifactId>jboss-annotations-api_1.1_spec</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>ear-sample-rest</finalName>
@@ -49,7 +62,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
-							<Dependencies>org.slf4j, org.apache.commons.logging, org.joda.time</Dependencies>
+							<Dependencies>org.slf4j, org.apache.commons.logging, org.joda.time, org.codehaus.jackson.jackson-core-asl, org.codehaus.jackson.jackson-mapper-asl</Dependencies>
 						</manifestEntries>
 					</archive>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
