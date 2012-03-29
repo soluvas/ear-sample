@@ -50,6 +50,7 @@
 				<version>2.7</version>
 				<configuration>
 					<version>6</version>
+					<defaultLibBundleDir>lib/</defaultLibBundleDir>
 					<modules>
 						<webModule>
 							<groupId>org.soluvas.earsample</groupId>
