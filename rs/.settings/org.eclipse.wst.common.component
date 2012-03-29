@@ -6,8 +6,11 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="ear-sample-core-1.0.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ear-sample-core/ear-sample-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="ear-sample-rest"/>
         <property name="java-output-path" value="/ear-sample-rs/target/classes"/>
-        <property name="component.exclusion.patterns" value="WEB-INF/lib/*"/>
+        <property name="component.exclusion.patterns"/>
     </wb-module>
 </project-modules>
