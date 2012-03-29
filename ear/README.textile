@@ -1,0 +1,9 @@
+h1. EAR Sample: EAR Project
+
+h2. Usage
+
+After deploying the app, check out the following URLs:
+
+* http://localhost:8080/web/
+* http://localhost:8080/api/article/
+

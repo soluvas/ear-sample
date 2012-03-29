@@ -1,6 +1,9 @@
 package org.soluvas.earsample.data;
 
+import java.util.Calendar;
 import java.util.Date;
+
+import org.joda.time.DateTime;
 
 public class Article {
 
@@ -58,8 +61,8 @@ public class Article {
 	public void setCreator(String creator) {
 		this.creator = creator;
 	}
-	public Date getCreated() {
-		return created;
+	public DateTime getCreated() {
+		return new DateTime(created);
 	}
 	public void setCreated(Date created) {
 		this.created = created;

@@ -10,6 +10,14 @@
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>ear-sample-core</artifactId>
+	
+	<dependencies>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<finalName>ear-sample-core</finalName>
 	</build>
