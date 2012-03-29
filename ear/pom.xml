@@ -56,6 +56,10 @@
 							<artifactId>ear-sample-web</artifactId>
 							<contextRoot>web</contextRoot>
 						</webModule>
+						<ejbModule>
+							<groupId>org.soluvas.earsample</groupId>
+							<artifactId>ear-sample-core</artifactId>
+						</ejbModule>
 					</modules>
 				</configuration>
 			</plugin>
