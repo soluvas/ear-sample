@@ -5,6 +5,7 @@
   <groupId>org.soluvas.earsample.ear</groupId>
   <artifactId>ear-sample-ear</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+  <packaging>ear</packaging>
   <repositories>
     <repository>
       <id>JBOSS_NEXUS</id>
